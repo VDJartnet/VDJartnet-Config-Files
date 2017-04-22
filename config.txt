@@ -1,0 +1,35 @@
+127.0.0.1
+001~var $artnet 1 ? get_constant 255 : get_constant 0
+
+002~var $artnet 2 ? get_constant 255 : get_constant 0
+003~var $artnet 3 ? get_constant 255 : get_constant 0
+004~var $artnet 4 ? get_constant 255 : get_constant 0
+005~var $artnet 5 ? get_constant 255 : get_constant 0
+006~var $artnet 6 ? get_constant 255 : get_constant 0
+007~var $artnet 7 ? get_constant 255 : get_constant 0
+008~var $artnet 8 ? get_constant 255 : get_constant 0
+009~var $artnet 9 ? get_constant 255 : get_constant 0
+010~var $artnet 10 ? get_constant 255 : get_constant 0
+011~var $artnet 11 ? get_constant 255 : get_constant 0
+012~var $artnet 12 ? get_constant 255 : get_constant 0
+013~var $artnet 13 ? get_constant 255 : get_constant 0
+014~var $artnet 14 ? get_constant 255 : get_constant 0
+015~var $artnet 15 ? get_constant 255 : get_constant 0
+016~var $artnet 16 ? get_constant 255 : get_constant 0
+017~var $artnet 17 ? get_constant 255 : get_constant 0
+018~var $artnet 18 ? get_constant 255 : get_constant 0
+019~var $artnet 19 ? get_constant 255 : get_constant 0
+020~var $artnet 20 ? get_constant 255 : get_constant 0
+500~param_greater get_beat_bar 12.5% ? get_constant 255 : param_greater get_beat_bar 25% ? get_constant 0 : param_greater get_beat_bar 37.5% ? get_constant 255 : param_greater get_beat_bar 50% ? get_constant 0 : param_greater get_beat_bar 62.5% ? get_constant 255 : param_greater get_beat_bar 75% ? get_constant 0 : param_greater get_beat_bar 87.5% ? get_constant 255 : get_constant 0
+501~
+502~
+503~
+504~
+505~
+506~
+507~
+508~
+509~
+510~
+511~
+512~

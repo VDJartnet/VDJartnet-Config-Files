@@ -1,2 +1,3 @@
 Is Playing~play ? get_constant 255 : get_constant 0
 Every Beat~get_beat_num 1 ? get_constant 255 : get_beat_num 3 ? get_constant 255 : get_constant 0
+Cue~var $artnet 1 ? get_constant 255 : get_constant 0

@@ -1,4 +1,28 @@
-Is Playing~play ? set $VDJartnetSend 255 : set $VDJartnetSend 0
-Every Beat~get_beat_num 1 ? set $VDJartnetSend 255 : get_beat_num 3 ? set $VDJartnetSend 255 : set $VDJartnetSend 0
-Beat Grid~param_greater get_beat_bar 12.5% ? set $VDJartnetSend 255 : param_greater get_beat_bar 25% ? set $VDJartnetSend 0 : param_greater get_beat_bar 37.5% ? set $VDJartnetSend 255 : param_greater get_beat_bar 50% ? set $VDJartnetSend 0 : param_greater get_beat_bar 62.5% ? set $VDJartnetSend 255 : param_greater get_beat_bar 75% ? set $VDJartnetSend 0 : param_greater get_beat_bar 87.5% ? set $VDJartnetSend 255 : set $VDJartnetSend 0
-Cue~var $artnet 1 ? set $VDJartnetSend 255 : set $VDJartnetSend 0
+Is Playing~play ? set $VDJartnetsend 255 : set $VDJartnetsend 0
+Deck 1 Playing~deck 1 play ? set $VDJartnetsend 255 : set $VDJartnetsend 0
+Deck 2 Playing~deck 2 play ? set $VDJartnetsend 255 : set $VDJartnetsend 0
+Deck 3 Playing~deck 3 play ? set $VDJartnetsend 255 : set $VDJartnetsend 0
+Deck 4 Playing~deck 4 play ? set $VDJartnetsend 255 : set $VDJartnetsend 0
+Every Beat~param_greater get_beat_bar 12.5% ? set $VDJartnetsend 255 : param_greater get_beat_bar 25% ? set $VDJartnetsend 0 : param_greater get_beat_bar 37.5% ? set $VDJartnetsend 255 : param_greater get_beat_bar 50% ? set $VDJartnetsend 0 : param_greater get_beat_bar 62.5% ? set $VDJartnetsend 255 : param_greater get_beat_bar 75% ? set $VDJartnetsend 0 : param_greater get_beat_bar 87.5% ? set $VDJartnetsend 255 : set $VDJartnetsend 0
+Twice A beat~param_greater get_beat_bar 6.75% ? set $VDJartnetsend 255 : param_greater get_beat_bar 12.5% ? set $VDJartnetsend 0 : param_greater get_beat_bar 18.75% ? set $VDJartnetsend 255 : param_greater get_beat_bar 25% ? set $VDJartnetsend 0 : param_greater get_beat_bar 31.25% ? set $VDJartnetsend 255 : param_greater get_beat_bar 37.5% ? set $VDJartnetsend 0 : param_greater get_beat_bar 43.75% ? set $VDJartnetsend 255 : param_greater get_beat_bar 50% ? set $VDJartnetsend 0 : param_greater get_beat_bar 56.25% ? set $VDJartnetsend 255 : param_greater get_beat_bar 62.5% ? set $VDJartnetsend 0 : param_greater get_beat_bar 68.75% ? set $VDJartnetsend 255 : param_greater get_beat_bar 75% ? set $VDJartnetsend 0 : param_greater get_beat_bar 81.25% ? set $VDJartnetsend 255 : param_greater get_beat_bar 87.5% ? set $VDJartnetsend 0 : param_greater get_beat_bar 93.75% ? set $VDJartnetsend 255 : set $VDJartnetsend 0
+Every Other Beat~get_beat_num 1 ? set $VDJartnetsend 255 : get_beat_num 3 ? set $VDJartnetsend 255 : set $VDJartnetsend 0
+Cue 001~var $artnet 1 ? set $VDJartnetsend 255 : set $VDJartnetsend 0
+Cue 002~var $artnet 3 ? set $VDJartnetsend 255 : set $VDJartnetsend 0
+Cue 003~var $artnet 4 ? set $VDJartnetsend 255 : set $VDJartnetsend 0
+Cue 004~var $artnet 5 ? set $VDJartnetsend 255 : set $VDJartnetsend 0
+Cue 005~var $artnet 6 ? set $VDJartnetsend 255 : set $VDJartnetsend 0
+Cue 006~var $artnet 6 ? set $VDJartnetsend 255 : set $VDJartnetsend 0
+Cue 007~var $artnet 7 ? set $VDJartnetsend 255 : set $VDJartnetsend 0
+Cue 008~var $artnet 8 ? set $VDJartnetsend 255 : set $VDJartnetsend 0
+Cue 009~var $artnet 9 ? set $VDJartnetsend 255 : set $VDJartnetsend 0
+Cue 010~var $artnet 10 ? set $VDJartnetsend 255 : set $VDJartnetsend 0
+Cue 011~var $artnet 11 ? set $VDJartnetsend 255 : set $VDJartnetsend 0
+Cue 012~var $artnet 12 ? set $VDJartnetsend 255 : set $VDJartnetsend 0
+Cue 013~var $artnet 13 ? set $VDJartnetsend 255 : set $VDJartnetsend 0
+Cue 014~var $artnet 14 ? set $VDJartnetsend 255 : set $VDJartnetsend 0
+Cue 015~var $artnet 15 ? set $VDJartnetsend 255 : set $VDJartnetsend 0
+Cue 016~var $artnet 16 ? set $VDJartnetsend 255 : set $VDJartnetsend 0
+Cue 017~var $artnet 17 ? set $VDJartnetsend 255 : set $VDJartnetsend 0
+Cue 018~var $artnet 18 ? set $VDJartnetsend 255 : set $VDJartnetsend 0
+Cue 019~var $artnet 19 ? set $VDJartnetsend 255 : set $VDJartnetsend 0
+Cue 020~var $artnet 20 ? set $VDJartnetsend 255 : set $VDJartnetsend 0

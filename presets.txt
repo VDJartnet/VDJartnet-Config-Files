@@ -15,14 +15,4 @@ Cue 006~var $artnet 6 ? set $VDJartnetsend 255 : set $VDJartnetsend 0
 Cue 007~var $artnet 7 ? set $VDJartnetsend 255 : set $VDJartnetsend 0
 Cue 008~var $artnet 8 ? set $VDJartnetsend 255 : set $VDJartnetsend 0
 Cue 009~var $artnet 9 ? set $VDJartnetsend 255 : set $VDJartnetsend 0
-Cue 010~var $artnet 10 ? set $VDJartnetsend 255 : set $VDJartnetsend 0
-Cue 011~var $artnet 11 ? set $VDJartnetsend 255 : set $VDJartnetsend 0
-Cue 012~var $artnet 12 ? set $VDJartnetsend 255 : set $VDJartnetsend 0
-Cue 013~var $artnet 13 ? set $VDJartnetsend 255 : set $VDJartnetsend 0
-Cue 014~var $artnet 14 ? set $VDJartnetsend 255 : set $VDJartnetsend 0
-Cue 015~var $artnet 15 ? set $VDJartnetsend 255 : set $VDJartnetsend 0
-Cue 016~var $artnet 16 ? set $VDJartnetsend 255 : set $VDJartnetsend 0
-Cue 017~var $artnet 17 ? set $VDJartnetsend 255 : set $VDJartnetsend 0
-Cue 018~var $artnet 18 ? set $VDJartnetsend 255 : set $VDJartnetsend 0
-Cue 019~var $artnet 19 ? set $VDJartnetsend 255 : set $VDJartnetsend 0
-Cue 020~var $artnet 20 ? set $VDJartnetsend 255 : set $VDJartnetsend 0
+Cue 1 if deck is active & faded up~var artnet 1 ? is_audible deck active ? set $VDJartnetSend 255 : set $VDJartnetSend 0 : set $VDJartnetSend 0

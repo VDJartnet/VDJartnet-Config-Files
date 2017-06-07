@@ -1,4 +1,5 @@
 Is Playing~play ? set $VDJartnetsend 255 : set $VDJartnetsend 0
+Is Not Playing~play ? set $VDJartnetsend 0 : set $VDJartnetsend 255
 Deck 1 Playing~deck 1 play ? set $VDJartnetsend 255 : set $VDJartnetsend 0
 Deck 2 Playing~deck 2 play ? set $VDJartnetsend 255 : set $VDJartnetsend 0
 Deck 3 Playing~deck 3 play ? set $VDJartnetsend 255 : set $VDJartnetsend 0
